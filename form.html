@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+
+<h1 style="text-align: center; color: #041d21;"> Formulir Biodata Mahasiswa Baru </h1>
+		<style>
+			label{
+			width : 100px;
+			display : inline-block;
+			color: #041d21;
+			}
+		</style>
+		
+</head>
+<body style="background-image: url('Part-1-Background-17-without-Glare.jpg');">
+	<form style="text-align: center;">
+		<fieldset>
+			<legend style="font-size: 20px; color: #dcf3f7;"> Data Pribadi: </legend>
+				<label style="text-align: left;" for="x"> Nama :</label>
+				<input type="text" value="Ketut Agus Sarjana Putra" id="x">
+			<br>
+			<br>
+				<label style="text-align: left;" for="y"> Alamat :</label >
+				<input type="text" id="y">
+			<br>
+			<br>
+				<label style="text-align: left;" for="z"> No telepon :</label>
+				<input type="text" id="z">
+  			<br>
+			<br>
+				<label style="text-align: left;" for="b"> TTL :</label>
+				 <input type="date" name="ultah" for="b">
+			<br>
+			<br>
+				<label style="text-align: left;margin-left: 43px;" for="a"> Jenis kelamin :</label>
+				<input type="radio" name="gender" value="Laki-Laki" checked for= "a"> Laki- Laki
+  				<input type="radio" name="gender" value="Perempuan" for= "a"> Perempuan
+  			<br>
+  			<br>
+				<label style="text-align: left;" for="c">Berat Badan(kg) :</label>
+				<input type="number" name="Berat" for="c" >
+		</fieldset>
+		<fieldset>
+			<legend style="font-size: 20px; color: #dcf3f7;"> Data Pendidikan</legend>
+				<label style="text-align: left;" > Sekolah lulusan :</label>
+				<select>
+					<option value="Nilai 1">SMA</option>
+    				<option value="Nilai 2">SMK</option>
+				</select>
+			<br>
+			<br>
+				<label style="text-align: left;" for="d"> UKM yang ingin diikuti :</label>
+				<input type="checkbox" value="Nilai checkbox" for="d"> Restek
+    			<input type="checkbox" value="Nilai checkbox" for="d"> Unytech
+    			<input type="checkbox" value="Nilai checkbox" for="d"> Sikma
+			<br>
+			<br>
+				<label style="text-align: left;" for="e"> Scan ijazah :</label>
+				<input type="file">
+				
+			<br>
+			<br>
+				<label style="text-align: left;" for="e"> Minat Dalam Informatika :</label>
+				<input type="range" name="points" min="0" max="100" for="e">
+		</fieldset>
+		<fieldset>
+			<legend style="font-size: 20px; color: #dcf3f7;"> Kesan dan Pesan</legend>
+				<label>Komentar :</label>
+            	<textarea cols="50" rows="5">Masukkan komentar anda</textarea>
+		</fieldset>
+				<input type="submit" value="Submit Data" style="margin-left: 85px;">
+	</form>	
+		
+</body>
+</html>

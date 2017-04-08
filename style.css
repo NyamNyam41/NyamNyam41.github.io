@@ -1,0 +1,27 @@
+*{padding: 0; margin: 0;}
+body {font-family: 'Maitree', serif;}
+.mn {width: 100%; background-color: #041149; overflow: hidden;}
+nav {
+	width:800px;
+	height: 80px;
+	margin: auto;
+}
+nav ul {
+	list-style: none;
+}
+nav li {
+	float: left; width: 100%; text-align: center; 
+}
+nav li a { 
+	line-height: 50px; text-decoration: none; color:#ecf0f1; display: block; 
+}
+nav li a:hover {
+	background: #2980b9; color: #fff;
+}
+nav li a i {padding-right:10px;}
+
+h1 {
+	width: 150px;
+	color : #2980b9;
+	text-align: center;
+}
