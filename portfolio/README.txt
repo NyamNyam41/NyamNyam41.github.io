@@ -1,3 +1,6 @@
+Ketut Agus Sarjana Putra
+(16520249002)
+
 Tugas yang diselesaikan :
 1. membuat index.html yang mengadung link ke resume dan bio
 
