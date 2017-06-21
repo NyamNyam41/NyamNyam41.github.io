@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.bgimg-1 {
+  background-image: url("minimal-graphic-design-wallpaper-iphone.jpg");
+  min-height: 75%;
+  
+}
+
+.bgimg-2 {
+  background-image: url("ds.png"); 
+  min-height: 500px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+
+}
+
+.caption span.border {
+  border-style: solid;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+
+}
+
+.satu {
+  color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;
+}
+
+.dua {
+  position: relative;
+}
+
+.tiga{
+  color:#ddd;background-color:#282E34;text-align:center;padding:3px 8px;text-align: justify;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  font-style: oblique;
+  color: #fff;
+}
+ 
