@@ -76,7 +76,8 @@ p {
 }
 
 a {
-  font-style: oblique;
+  text-decoration: none;
+  font-style: none;
   color: #fff;
 }
  .resatu{
